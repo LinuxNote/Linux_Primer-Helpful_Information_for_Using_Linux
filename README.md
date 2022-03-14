@@ -11,7 +11,7 @@
 
 4. [Running Linux on a Desktop or Laptop](Desktop/README.md)
 
-5. [Useful Linux Commands](Commands/README.md)
+5. [Miscellaneous Useful Linux Information](Miscellaneous/README.md)
 
 ## Introduction
 
