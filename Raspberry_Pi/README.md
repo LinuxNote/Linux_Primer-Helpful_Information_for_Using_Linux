@@ -22,3 +22,7 @@ on the Raspberry Pi.
 ## Installing/Running Ubuntu
 
 1. 
+
+## Installing/Running Manjaro
+
+1. 
