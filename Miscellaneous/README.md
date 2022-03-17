@@ -16,13 +16,19 @@ information on each command.
 
 - [`pwd`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command):
   Print working directory.
-- [`tree`](): Show directories and subdirectories in a tree-like form.
+- [`tree`](https://www.tecmint.com/linux-tree-command-examples/): Show directories and subdirectories
+  in a tree-like form. You might have to get `tree` with sudo apt-get install tree.
 
 - [`sudo`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-sudo-command):
-- [`sudo apt-get install <package_name>`](): Install <package_name>.
-  - [`apt`](): Advanced Package Manager.
-  - [`apt-get`]():
-  - [`install`]():
+  Run a command as root, or as any other user.
+- [`sudo apt install <package_name>`](https://embeddedinventor.com/sudo-apt-install-command-explained-for-beginners/):
+  Install <package_name>.
+  - [`apt`](https://www.techradar.com/how-to/computing/everything-you-need-to-know-about-linux-commands-1321955/2):
+    Advanced Packaging Tool, a package manager.
+- [`sudo apt update`](https://linoxide.com/apt-update-and-apt-upgrade-commands-whats-the-difference/):
+  Updates package index of Linux machine.
+- [`sudo apt upgrade`](https://linoxide.com/apt-update-and-apt-upgrade-commands-whats-the-difference/):
+  Upgrades all packages.
 
 - [`clear`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-clear-command):
   Clears console screen.
@@ -30,25 +36,29 @@ information on each command.
   Shows the previous commands entered.
 - [`cat <file_name>`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cat-command):
   Display the contents of <file_name>.
-- [`head`]():
 - [`tail`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-tail-command):
-- [`|`]():
+  Prints the end of the file to the console.
 - [`touch <file_name>`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-touch-command):
   Create a file with a name of <file_name>.
 - [`grep`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-grep-command):
 - [`du`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-du-command): 
+  Disk usage. Calculate the size of a directory.
 - [`mkdir`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mkdir-command):
+  Make a new directory.
 - [`rmdir`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command):
+  Delete an empty directory.
 - [`mv`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mv-command):
+  Move
 - [`cp`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cp-command):
+  Copy
 - [`which`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-which-command):
   Finds where the binary lives in the file system.
 - [`man`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-man-command):
+  Displays the manual for a given command.
 - [`echo`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-echo-command):
+  "Prints to the output the argument passed to it".
   - For example, `echo $PATH` prints out the $PATH environment variable, which tells the OS where to find the binaries.
-- [`vim`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-vim-editor-command):
-- [`emacs`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-emacs-editor-command):
-- [`nano`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-nano-editor-command):
+
 
 ## Linux Directories Explained
 
