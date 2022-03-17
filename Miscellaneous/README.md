@@ -38,9 +38,9 @@ information on each command.
 - [`grep`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-grep-command):
 - [`du`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-du-command): 
 - [`mkdir`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mkdir-command):
-- [`rmdir`]()
-- [`mv`]():
-- [`cp`]():
+- [`rmdir`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command):
+- [`mv`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mv-command):
+- [`cp`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cp-command):
 - [`which`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-which-command):
   Finds where the binary lives in the file system.
 - [`man`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-man-command):
@@ -52,24 +52,32 @@ information on each command.
 
 ## Linux Directories Explained
 
-Information in this section was taken from
+Information in this section is taken from
 [this video](https://www.youtube.com/watch?v=42iQKuQodW4).
 
-Check out the [Fireship channel](https://www.youtube.com/c/Fireship) for high-quality content.
+Check out the [Fireship channel](https://www.youtube.com/c/Fireship) for similar content.
 
-- boot:
-- dev:
-- bin: Binaries (AKA executables) vital to the operating system.
-- sbin: System binaries. These should only be executed by the super user.
-- lib: Contains libraries that are "shared... between binaries".
-- tmp:
-- var:
-- etc: Et cetera, or editable text config. Contains configuration files.
-- home:
-- usr: This directory also contains `bin` and `sbin` directories. These binaries are for the user,
-  not for the OS. Inside `usr` is a `local` directory, which contains binaries the user compiled themselves.
-- proc:
+- `bin`: Binaries (AKA executables) vital to the operating system.
+- `sbin`: System binaries. These should only be executed by the super user.
+- `lib`: Contains libraries that are "shared... between binaries".
+- `usr`: This directory also contains `bin` and `sbin` directories. These binaries are for the user,
+  not for the OS. Inside `usr` is a `local` directory, which contains binaries the user compiled themselves.- etc: Et cetera, or editable text config. Contains configuration files.
+- `home`: Contains a directory for every on for the system.
+- `boot`: Contains files necessary to boot (starting) the machine, such as the Linux kernel.
+- `dev`: Device files. Can interact with hardware drivers as if they were files.
+- `opt`: Optional software.
+- `var`: Variable files. Contains files that will change as the OS is run.
+- `tmp`: Temporary files. Will be deleted between reboots.
+- `proc`: Doesn't actually exist on the disk. Created in-memory "to keep track of running processes".
 
 
 ## How to Create a Symlink
 
+
+## How to create a Bash Script
+
+## Text Editor Usage
+
+### How to use Vim
+
+### How to Use Emacs
