@@ -48,9 +48,9 @@ information on each command.
 - [`rmdir`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command):
   Delete an empty directory.
 - [`mv`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mv-command):
-  Move
+  Move a file into a new directory.
 - [`cp`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cp-command):
-  Copy
+  Copy file or folder.
 - [`which`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-which-command):
   Finds where the binary lives in the file system.
 - [`man`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-man-command):
@@ -81,13 +81,21 @@ Check out the [Fireship channel](https://www.youtube.com/c/Fireship) for similar
 - `proc`: Doesn't actually exist on the disk. Created in-memory "to keep track of running processes".
 
 
-## How to Create a Symlink
+## Symlinks
 
+A symlink (symbolic link) is a file that links (AKA points) to another file or folder. They are
+basically shortcuts.
 
-## How to create a Bash Script
+To create a symlink, you can use: `ln -s <path to object to be linked> <path of link>`
+
+Refer to
+[this freeCodeCamp article](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/)
+for the source, along with further information.
 
 ## Text Editor Usage
 
 ### How to use Vim
 
 ### How to Use Emacs
+
+## How to create a Bash Script

@@ -26,3 +26,7 @@ on the Raspberry Pi.
 ## Installing/Running Manjaro
 
 1. 
+
+## Installing/Running Debian
+
+1. 
