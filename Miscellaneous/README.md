@@ -96,6 +96,32 @@ for the source, along with further information.
 
 ### How to use Vim
 
-### How to Use Emacs
+#### Helpful Commands
+
+- `:q` or `:q!`: Quit Vim.
+- `i`: Enter insert mode.
+- `a` or `o`: Also enter insert mode. Appends and opens a new line, respectively. Can be used with the shift key.
+- `:w`: Save changes.
+- `:wq`: Write and quit.
+- `:set number` or `:set relativenumber`: Turn on line numbers.
+- `h`, `j`, `k`, `l`: Left, down, up, right.
+- `u` and `ctrl + R`: Undo and redo.
+- `v`: Enter visual mode.
+
+#### Helpful Tips
+
+- Recall that certain commands can be combined with numbers.
+- The Vim configuration file is at `~/.vimrc`.
+  - A typical configuration file might look like this:
+  
+  ```
+  set number
+  set relativenumber
+  set tabstop=4
+  set shiftwidth=4
+  set autoindent
+  set mouse=a
+  colorscheme slate
+  ```
 
 ## How to create a Bash Script
