@@ -96,6 +96,10 @@ for the source, along with further information.
 
 ### How to use Vim
 
+Information for this section is taken from
+[this freeCodeCamp video](https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/).
+Refer to that video for more information.
+
 #### Helpful Commands
 
 - `:q` or `:q!`: Quit Vim.
@@ -107,6 +111,7 @@ for the source, along with further information.
 - `h`, `j`, `k`, `l`: Left, down, up, right.
 - `u` and `ctrl + R`: Undo and redo.
 - `v`: Enter visual mode.
+- `d`: Delete.
 
 #### Helpful Tips
 
@@ -124,4 +129,33 @@ for the source, along with further information.
   colorscheme slate
   ```
 
-## How to create a Bash Script
+## Bash Shell and Scripts
+
+Information for this section is taken primarily from [this Fireship video](https://www.youtube.com/watch?v=I4EWvMFj37g).
+Check out that video for more information.
+
+### How to Create a Bash Script
+
+Bash is also an interpreted programming language.
+
+Here is an example of a Bash script:
+
+```shell
+#!/bin/bash
+
+echo "A Song of Ice and Fire"
+TWOW="The Winds of Winter"
+echo $TWOW
+```
+
+You can find this script [here](bash_script.sh). Run the script by entering `chmod +x
+bash_script.sh`, then `./bash_script.sh` into the terminal.
+
+The previous script will print the following to the terminal:
+
+```
+A Song of Ice and Fire
+The Winds of Winter
+```
+
+### How to Customize the Bash Shell's Appearance
