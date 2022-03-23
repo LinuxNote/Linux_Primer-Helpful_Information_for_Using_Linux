@@ -111,7 +111,17 @@ Refer to that video for more information.
 - `h`, `j`, `k`, `l`: Left, down, up, right.
 - `u` and `ctrl + R`: Undo and redo.
 - `v`: Enter visual mode.
-- `d`: Delete.
+- `d`: Delete. `dd` deletes the whole line.
+- `D`: Delete rest of line.
+- `y`: Yank, AKA copy. `yy` copies the whole line.
+- `p`: Paste.
+- `c`: Change. `cc` changes the whole line.
+- `C`: Change rest of line.
+- `r`: Replace.
+- `w`: Jump to next word.
+- `v`: Jump to previous word.
+- `dw`: Delete word.
+- `0`, `$`: Go to beginning and end of line.
 
 #### Helpful Tips
 
