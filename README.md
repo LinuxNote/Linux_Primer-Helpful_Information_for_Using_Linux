@@ -17,3 +17,21 @@
 
 Collected here are helpful tips and tricks for getting started with Linux.
 
+
+## Helpful Terminal Commands to Run After Initial Setup
+
+### Debian-Based Distros
+
+1. sudo apt update
+2. sudo apt upgrade
+3. sudo apt install git
+4. sudo apt install python3-pip
+5. sudo apt install vim
+6. pip install conan
+7. 
+
+Note: Python 3 and gcc/g++ should already be installed.
+
+### Arch-Based Distros
+
+1. 

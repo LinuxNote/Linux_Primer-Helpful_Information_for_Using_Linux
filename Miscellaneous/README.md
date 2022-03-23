@@ -122,6 +122,7 @@ Refer to that video for more information.
 - `v`: Jump to previous word.
 - `dw`: Delete word.
 - `0`, `$`: Go to beginning and end of line.
+- `yiw`: Yank inner word.
 
 #### Helpful Tips
 

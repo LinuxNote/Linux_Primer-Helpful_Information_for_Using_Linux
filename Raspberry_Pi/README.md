@@ -17,5 +17,8 @@ on the Raspberry Pi.
 
 1. Install [the Raspberry Pi Imager](https://www.raspberrypi.com/software/). The Raspberry Pi
    Imager can install Raspberry Pi OS, Ubuntu, and Manjaro onto a microSD card.
-
 2. Follow the instructions on the imager to select an operating system and a microSD card.
+3. Insert the microSD card into the Raspberry Pi, turn on the Pi, and follow the on-screen
+   setup instructions.
+4. You will now be able to run the selected OS on the Pi. Remember that, for Debian-based distros,
+   `apt` is the package manager, while for Arch-based distros, `pacman` is the package manager.
