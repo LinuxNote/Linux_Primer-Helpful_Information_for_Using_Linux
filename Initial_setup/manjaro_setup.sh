@@ -3,6 +3,7 @@ sudo pacman -Syu
 sudo pacman -S git
 sudo pacman -S python-pip
 sudo pacman -Sy vim
+sudo pacman -S neovim
 sudo pacman -Sy gcc
 pamac install vivaldi
 pip install conan

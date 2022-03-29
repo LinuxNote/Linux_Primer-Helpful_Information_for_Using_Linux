@@ -123,22 +123,14 @@ Refer to that video for more information.
 - `dw`: Delete word.
 - `0`, `$`: Go to beginning and end of line.
 - `yiw`: Yank inner word.
-
-#### Helpful Tips
-
-- Recall that certain commands can be combined with numbers.
-- The Vim configuration file is at `~/.vimrc`.
-  - A typical configuration file might look like this:
-  
-  ```
-  set number
-  set relativenumber
-  set tabstop=4
-  set shiftwidth=4
-  set autoindent
-  set mouse=a
-  colorscheme slate
-  ```
+- `ciw`: Change inner word. Another alternative is to use `ci<char>`, which changes everything
+  between `<char>`.
+- `%`: Go to bracket or parenthesis.
+- `f<symbol>` or `t<symbol>`: Jump to position at or before symbol specified.
+- `gg` or `shift + g`: Jump to beginning or end of file.
+- `<<` or `>>`: Indent left or right
+- `shift + v` or `ctrl + v`: Visual line and block modes.
+- `zz`: Center file.
 
 ## Bash Shell and Scripts
 
@@ -168,5 +160,3 @@ The previous script will print the following to the terminal:
 A Song of Ice and Fire
 The Winds of Winter
 ```
-
-### How to Customize the Bash Shell's Appearance

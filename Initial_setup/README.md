@@ -9,7 +9,8 @@ install to get up to speed faster.
 terminal. Check out [this video](https://www.youtube.com/watch?v=jS-QZKjAd-U) for more installation
 information.
 
-Remember to move the [.vimrc](.vimrc) file into the home (`~`) folder.
+Remember to move the [.vimrc](.vimrc) file into the home (`~`) folder; the Vim configuration file
+is usually at `~/.vimrc`.
 
 ## Ubuntu
 
