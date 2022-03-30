@@ -1,4 +1,4 @@
-# Note: Python 3 should already be installed.
+# Note: Python 3 should already come installed by Manjaro.
 sudo pacman -Syu
 sudo pacman -S git
 sudo pacman -S python-pip

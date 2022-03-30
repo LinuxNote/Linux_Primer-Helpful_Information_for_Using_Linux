@@ -4,6 +4,6 @@
 
 1. 
 
-## Installing/Running Linux Mint
+## Installing/Running elementary OS
 
 1. 

@@ -11,7 +11,9 @@
 
 4. [Running Linux on a Desktop or Laptop](Desktop/README.md)
 
-5. [Miscellaneous Useful Linux Information](Miscellaneous/README.md)
+5. [Setting up Linux for the First Time](Initial_setup/README.md)
+
+6. [Miscellaneous Useful Linux Information](Miscellaneous/README.md)
 
 ## Introduction
 
