@@ -1,5 +1,9 @@
 # Linux Primer: Helpful Information for Using Linux
 
+![Tux, mascot of Linux](penguin.svg)
+
+Image taken from [here](http://www.home.unix-ag.org/simon/penguin/).
+
 
 ## Table of Contents
 

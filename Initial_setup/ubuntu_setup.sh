@@ -1,4 +1,4 @@
-# Note: Python 3 and gcc/g++ should already be installed.
+# Note: Python 3 and gcc/g++ should already come installed with Ubuntu.
 sudo apt update
 sudo apt upgrade
 sudo apt install git
