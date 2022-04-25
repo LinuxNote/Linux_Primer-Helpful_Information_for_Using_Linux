@@ -7,6 +7,6 @@ sudo pacman -S neovim
 sudo pacman -Sy gcc
 pamac install vivaldi
 pip install conan
-# After installation, conan might not be in the PATH. conan is installed in `/home/lee-way/.local/bin`.
+# After installation, conan might not be in the PATH. conan is installed in `/home/<username>/.local/bin`.
 # Add this to the path by editing the bashrc file at ~/.bashrc and adding
-# export PATH=/home/lee-way/.local/bin:$PATH to the end.
+# export PATH=/home/<username>/.local/bin:$PATH to the end.
