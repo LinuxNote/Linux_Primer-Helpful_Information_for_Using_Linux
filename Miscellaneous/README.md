@@ -17,7 +17,7 @@ information on each command.
 - [`pwd`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command):
   Print working directory.
 - [`tree`](https://www.tecmint.com/linux-tree-command-examples/): Show directories and subdirectories
-  in a tree-like form. You might have to get `tree` with sudo apt-get install tree.
+  in a tree-like form. You might have to get `tree` with `sudo apt install tree`.
 
 - [`sudo`](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-sudo-command):
   Run a command as root, or as any other user.
@@ -71,7 +71,8 @@ Check out the [Fireship channel](https://www.youtube.com/c/Fireship) for similar
 - `sbin`: System binaries. These should only be executed by the super user.
 - `lib`: Contains libraries that are "shared... between binaries".
 - `usr`: This directory also contains `bin` and `sbin` directories. These binaries are for the user,
-  not for the OS. Inside `usr` is a `local` directory, which contains binaries the user compiled themselves.- etc: Et cetera, or editable text config. Contains configuration files.
+  not for the OS. Inside `usr` is a `local` directory, which contains binaries the user compiled themselves.
+- `etc`: Et cetera, or editable text config. Contains configuration files.
 - `home`: Contains a directory for every on for the system.
 - `boot`: Contains files necessary to boot (starting) the machine, such as the Linux kernel.
 - `dev`: Device files. Can interact with hardware drivers as if they were files.
